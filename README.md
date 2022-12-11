@@ -3,7 +3,7 @@
 <p> Projeto de back End , utilizando o nodeJs e sequelize para adicição ao banco de dados.</p>
 <strong> Comando para execução da API</strong>
 
-<P> npm init -y
+<P> npm init -y -- </br>
 npm install sequelize@6.3
 npm install -D sequelize-cli@6.2
 npm install mysql2@2.3
