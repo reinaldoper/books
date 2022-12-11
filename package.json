@@ -2,8 +2,11 @@
   "name": "transition",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+    "start": "node .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
